@@ -78,9 +78,6 @@
                                             <a href="{{ route('login-Facebook') }}" class="btn btn-facebook btn-user btn-block">
                                                 <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                                             </a>
-                                            <a href="{{ route('login-Githup') }}" class="btn btn-facebook btn-user btn-block" style="background-color:#444444">
-                                                <i class="fab fa-github fa-fw"></i> Login with Githup
-                                            </a>
                                         </form>
                                         <hr>
                                         <div class="text-center">

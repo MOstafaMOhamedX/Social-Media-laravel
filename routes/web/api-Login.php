@@ -5,6 +5,3 @@ Route::get('/login/Google/Callback'     , [App\Http\Controllers\auth\LoginContro
 
 Route::get('/login/Facebook'            , [App\Http\Controllers\auth\LoginController::class, 'redirectToFacebook'       ])->name('login-Facebook');
 Route::get('/login/Facebook/Callback'   , [App\Http\Controllers\auth\LoginController::class, 'handleFacebookCallback'   ]);
-
-Route::get('/login/Githup'              , [App\Http\Controllers\auth\LoginController::class, 'redirectToGithup'         ])->name('login-Githup');
-Route::get('/login/Githup/Callback'     , [App\Http\Controllers\auth\LoginController::class, 'handleGithupCallback'     ]);

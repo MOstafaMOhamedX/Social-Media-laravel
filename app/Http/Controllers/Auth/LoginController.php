@@ -7,7 +7,8 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Laravel\Socialite\Facades\Socialite;
-
+use App\Models\User;
+use Auth;
 
 class LoginController extends Controller
 {
@@ -63,21 +64,6 @@ class LoginController extends Controller
         return Socialite::driver('facebook')->redirect();
     }
     public function handleFacebookCallback()
-    {
-        $user = Socialite::driver('github')->user();
-
-        $this->_registerOrLoginUser($user);
-
-        // Return home after login
-        return redirect()->route('home');
-    }
-
-
-    public function redirectToGithup()
-    {
-        return Socialite::driver('github')->redirect();
-    }
-    public function handleGithupCallback()
     {
         $user = Socialite::driver('github')->user();
 
