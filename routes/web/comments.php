@@ -1,8 +1,5 @@
 <?php
 
-
-
-
   //Comments
   Route::middleware(['auth'])->group(function () {  
     Route::post('Comment/store' , [App\Http\Controllers\CommentController::class, 'store'])->name('comment.store');
