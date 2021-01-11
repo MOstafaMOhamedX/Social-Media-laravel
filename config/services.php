@@ -32,12 +32,12 @@ return [
     'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => 'http://localhost/laravel-socialite/public/login/Google/Callback',
+        'redirect' => 'http://127.0.0.1:8000/login/Google/Callback',
     ],
     'facebook' => [
         'client_id' => env('FACEBOOK_CLIENT_ID'),
         'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
-        'redirect' => 'http://localhost/laravel-socialite/public/login/Facebook/Callback',
+        'redirect' => 'http://127.0.0.1:8000/login/Facebook/Callback',
     ],
 
 ];
