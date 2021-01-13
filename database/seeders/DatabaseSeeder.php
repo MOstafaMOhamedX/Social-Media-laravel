@@ -17,6 +17,6 @@ class DatabaseSeeder extends Seeder
     {
         \App\Models\User::factory(10)->create();
         $this->call(LaratrustSeeder::class);
-        $user = User::factory()->has(\App\Models\Post::factory()->count(10))->create();
+        $user = User::factory()->has(\App\Models\Post::factory()->count(30))->create();
     }
 }
