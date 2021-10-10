@@ -1,21 +1,25 @@
 # Laravel Social Media application Example
 
-## About application
-user show all posts in main page and can comments for any of them ,  can edit his profile  and can contact with his frinds or any one by chat 
+# link -- http://mostafa-crud-app.herokuapp.com/
 
-admin can control all website from dashboard (show , edit , add  or delete )
+implement
 
-Link -- https://mostafa-crud-app.herokuapp.com
+-----CRUD application-----
 
-## Installation
+A CRUD app is a specific type of software application that consists of four basic operations; Create, Read, Update, Delete. At a high level, a CRUD apps consist of three parts; the database, user interface, and APIs
 
-1. Clone the repo and `cd` into it
-1. `composer install`
-1. Rename or copy `.env.example` file to `.env`
-1. `php artisan key:generate`
-1. Set your database credentials in your `.env` file
-1. Set your pusher credentials in your `.env` file. Specifically `PUSHER_APP_ID` , `PUSHER_APP_SECRET` and `PUSHER_APP_KEY`
-1. `npm install && npm run dev`
-1. `php artisan serve` or use Laravel Valet or Laravel Homestead
-1. Visit `localhost:8000` in your browser
-1. Visit `/admin` if you want to access the admin backend.
+
+-----Real time chat (chatify)-----
+
+Chatify Laravel Package.A Laravel package helps you add a complete real-time messaging system to your new / existing application with only one command.
+
+
+-----Socialite for third party auth (Google and FB)-----
+
+In addition to typical, form based authentication, Laravel also provides a simple, convenient way to authenticate with OAuth providers using Laravel Socialite.
+
+
+-----Admin panel from scratch-----
+
+It's an admin-specific platform in an application that allows for access and manipulation of data within the user interface of the site. ... Functioning without an admin panel can lead to a lack of insight into your data, and add greater difficulty for the testing team.
+
